@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.data--container{
+    
+    border: 1px solid black;
+    margin-block: 10px;
+    padding: 20px;
+    width: 300px;
+}
+.btndiv{
+text-align: center;
+}
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* No borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline on the text */
+    display: inline-block; /* Aligns the button next to other elements */
+    font-size: 16px; /* Sets the font size */
+    margin: 4px 2px; /* Adds some space around the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
